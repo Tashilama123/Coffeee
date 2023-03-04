@@ -1,0 +1,215 @@
+  * {
+      padding: 0;
+      margin: 0;
+
+  }
+
+  body {
+      font-family: "Rubik Iso";
+      color: white;
+  }
+
+  .cont {
+      background-color: #0f2537;
+  }
+
+  .container {
+    padding-left: 69px ;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background-color: #05192E;
+  }
+
+  nav ul li {
+      display: inline-flex;
+      margin: 20px 30px;
+  }
+
+  nav ul li a {
+      text-decoration: none;
+      color: white;
+  }
+
+  .container {
+      padding: 5px 50px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .btn {
+      padding: 10 px 60px;
+      font-size: 20px;
+  }
+
+  .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      justify-content: center;
+      text-align: center;
+      line-height: 30px;
+      font-family: "Rubik Iso";
+      color: burlywood;
+  }
+  .grid-item{
+    width:350px; 
+    padding-left: 69px;
+    
+  }
+
+  .grid-item img {
+      height: 500px;
+      width: 350px;
+      
+  }
+  .card{
+    box-shadow: 5px 5px 20px;
+    box-shadow:green;
+  }
+
+  #myVideo {
+      position: relative;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+  }
+
+  nav ul li a:hover {
+      color: green;
+      transition: 2s;
+  }
+
+  #btn {
+      color: aliceblue;
+      padding: 10px 20px;
+      background-color: #323835;
+      border-radius: 20px;
+      font-family: "Rubik Iso";
+      font-size: bold;
+  } 
+#btn:hover{ 
+    background-color: green; 
+   
+  } 
+  .Container2{ 
+   padding: 0%; 
+   background-color: #0f2537 ; 
+   text-align: center;
+   color: burlywood;
+  } 
+  .Heading{ 
+    background-color: #0f2537; 
+    text-align: center; 
+    color: green;
+  }
+  .container3{ 
+    padding: 0%;
+    right: 0%; 
+    background-color: #05192E; 
+
+} 
+#color{ 
+    color: green; 
+    padding: 10px 20px;
+      background-color:#05192E;
+      border-radius: 20px;
+} 
+.card1 {
+    width: 70%;
+    padding: 30px 90px 90px 90px;
+    border-radius: 50px;
+    position: relative;
+  }
+  
+  .card1 h2 {
+    font-size: 60px;
+    
+  }
+  
+  .card1 .row {
+    position: relative;
+    width: 77%;
+    display: grid;
+    grid-gap: 17px;
+  }
+  
+  .card1 .row .col {
+    position: relative;
+    width: 100%;
+    margin: 30px 20px 40px 0;
+   
+  }
+  
+  .card1 .row .form-group {
+    position: relative;
+    width: 77%;
+    height: 40px;
+    
+  }
+  
+  .card1 .row .form-group input,
+  .card1 .row .form-group textarea {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    font-size: 24px;
+    padding: 10px 0 10px 20px;
+    border-radius: 50px;
+  }
+  
+  .card1 .row .form-group label {
+    line-height: 40px;
+    font-size: 24px;
+    margin: 0 0 0 30px;
+    display: block;
+    
+  }
+  
+  .row .col:nth-child(6) {
+    margin-top: 176px;
+  }
+  
+  
+.card1 .row input[type="submit"] {
+    padding: 0px;
+    height: 100%;
+    width: 25%;
+    background: transparent;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 100;
+    border-radius: 20px; 
+    color: white; 
+    font-family: "Rubik Iso";
+    
+  }
+  
+  .card1 .row input[type="submit"]:hover {
+ color: green; 
+} 
+footer{
+  background: #05192E;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
+
+footer span a:hover{
+  text-decoration: underline;
+}
+.foot .menu li{
+  list-style: none;
+  display: inline-block;
+}
+.foot .menu li a{
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+  
+  
